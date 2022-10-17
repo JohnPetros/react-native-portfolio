@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import "./style.css";
 
+import image from "../../../assets/"
+
 export default function Project({
   name,
   images,
@@ -75,7 +77,7 @@ export default function Project({
           {images.map((image, index) => (
             <img
               key={index}
-              src={"/src/assets/" + image}
+              src={"../../../assets/" + image}
               alt="Screenshot do projeto"
               className={index === currentImage ? "image active" : "image"}
               onMouseEnter={() => {
