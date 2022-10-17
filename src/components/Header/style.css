@@ -1,0 +1,30 @@
+body header {
+  height: 35vh;
+  padding: 2rem 12rem;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  font-size: 1.8rem;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.nav-bar .list {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-bar .list .item {
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.nav-bar .list .item a:hover {
+  color: var(--light-blue);
+}

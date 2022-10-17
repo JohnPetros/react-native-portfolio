@@ -1,0 +1,32 @@
+#tech-stack {
+    margin-top: 22rem;
+    padding: 5rem 0;
+    background-color: var(--black);
+    border-radius: 12px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#tech-stack .techs {
+    display: flex;
+    margin-top: 5rem;
+}
+
+#tech-stack .techs .tech {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tech-stack .techs .tech-name {
+    color: var(--light-blue);
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+#tech-stack .techs .tech-description {
+    width: 70%;
+}
+

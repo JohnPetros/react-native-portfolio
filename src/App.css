@@ -1,0 +1,32 @@
+:root {
+  --white: #f3f3f3;
+  --black: #070d12;
+  --gray: #b8bbc5;
+  --dark-blue: #23395b;
+  --light-blue: #0094FB;
+  --background: #161925;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  list-style: none;
+  text-decoration: none;
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--background);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+main {
+  padding: 0 15rem;
+
+}

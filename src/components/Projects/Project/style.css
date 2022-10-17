@@ -1,0 +1,160 @@
+.project {
+  background-color: var(--black);
+  width: 100%;
+  min-height: 60rem;
+  padding-bottom: 1rem;
+
+  border: 2px solid var(--light-blue);
+  border-radius: 10px;
+  overflow: hidden;
+
+  display: flex;
+}
+
+.project .slider {
+  width: 40%;
+  position: relative;
+  padding-top: 1rem;
+  background-color: var(--dark-blue);
+}
+
+.project .slider .name {
+  text-align: center;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.project .slider .slider-button {
+  height: 102%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-blue);
+  filter: brightness(1.2);
+  width: 5rem;
+  top: -1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: font-size 0.2s ease-in-out;
+  z-index: 10;
+}
+
+.project .slider .slider-button:hover {
+  border: solid 2px var(--light-blue);
+  font-size: 3.5rem;
+  color: var(--light-blue);
+}
+
+.project .slider .slider-button.next {
+  right: 0;
+}
+
+.project .slider .image {
+  width: 22rem;
+  position: absolute;
+  left: 25%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+}
+
+.project .slider .image.active {
+  border: 1px solid var(--light-blue);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.project .slider .slider-pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  gap: 1rem;
+  bottom: 2rem;
+}
+
+.slider .pagination-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: var(--white);
+}
+
+.slider .pagination-dot.active {
+  background-color: var(--light-blue);
+  transform: scale(1.5);
+}
+
+.projects .tabs {
+  display: flex;
+  font-size: 1.6rem;
+}
+
+.projects .tabs .tab {
+  width: 50%;
+  background-color: var(--dark-blue);
+
+  padding: 1rem 2rem;
+  transition: background 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.projects .tabs .tab.active {
+  background-color: var(--black);
+}
+
+.projects .tabs .tab:hover {
+  background: var(--light-blue);
+}
+
+.project .information {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  font-size: 1.6rem;
+}
+
+.project .information .sub-title {
+  font-size: 2rem;
+  color: var(--light-blue);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project .information .description {
+  margin-bottom: 2rem;
+}
+
+.project .information .lists {
+  margin: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project .information .lists .sub-title {
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+.project .information .lists .list li {
+  list-style: disc;
+  text-align: start;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+.project .link {
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--light-blue);
+}
+
+.project .link:hover {
+  color: var(--dark-blue);
+}
