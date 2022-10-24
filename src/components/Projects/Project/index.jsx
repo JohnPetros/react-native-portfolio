@@ -43,6 +43,7 @@ export default function Project({
   }
   return (
     <div className="project">
+      <img src={Image} alt="" />
       <div className="slider">
         <h3 className="name">{name}</h3>
         <div
