@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import "./style.css";
 
+import Image from "../../../assets/rpg-card-2.jpg";
 
 export default function Project({
   name,
@@ -42,6 +43,7 @@ export default function Project({
   }
   return (
     <div className="project">
+      <img src={Image} alt="" />
       <div className="slider">
         <h3 className="name">{name}</h3>
         <div
