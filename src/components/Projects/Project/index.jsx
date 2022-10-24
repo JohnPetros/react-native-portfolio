@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import "./style.css";
 
-import Image from "../../../assets/rpg-card-2.jpg";
-import Image2 from "../../../assets/rpg-card-1.jpg";
+import Image from "../../../../public/rpg-card-1.jpg";
+// import Image2 from "../../../assets/rpg-card-1.jpg";
 
 export default function Project({
   name,
@@ -44,8 +44,7 @@ export default function Project({
   }
   return (
     <div className="project">
-      <img src={Image} alt="" />
-      <img src={Image2} alt="" />
+     
       <div className="slider">
         <h3 className="name">{name}</h3>
         <div
@@ -80,7 +79,7 @@ export default function Project({
           {images.map((image, index) => (
             <img
               key={index}
-              src={require("src/assets" + image)}
+              src={Image}
               alt="Screenshot do projeto"
               className={index === currentImage ? "image active" : "image"}
               onMouseEnter={() => {
