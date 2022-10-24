@@ -43,7 +43,6 @@ export default function Project({
   }
   return (
     <div className="project">
-      <img src={Image} alt="" />
       <div className="slider">
         <h3 className="name">{name}</h3>
         <div
@@ -78,7 +77,7 @@ export default function Project({
           {images.map((image, index) => (
             <img
               key={index}
-              src={"/src/assets/" + image}
+              src={"/assets/" + image}
               alt="Screenshot do projeto"
               className={index === currentImage ? "image active" : "image"}
               onMouseEnter={() => {
