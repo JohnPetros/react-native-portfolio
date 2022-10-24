@@ -79,7 +79,7 @@ export default function Project({
           {images.map((image, index) => (
             <img
               key={index}
-              src={Image}
+              src={image}
               alt="Screenshot do projeto"
               className={index === currentImage ? "image active" : "image"}
               onMouseEnter={() => {
