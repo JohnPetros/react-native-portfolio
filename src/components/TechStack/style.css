@@ -2,6 +2,7 @@
     margin-top: 22rem;
     padding: 5rem 0;
     background-color: var(--black);
+    border: solid 1px var(--light-blue);
     border-radius: 12px;
     text-align: center;
     font-size: 1.6rem;
@@ -20,7 +21,7 @@
 
 #tech-stack .techs .tech-name {
     color: var(--light-blue);
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     display: flex;
     gap: 1rem;
     font-size: 2rem;

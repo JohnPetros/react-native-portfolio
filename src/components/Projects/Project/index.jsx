@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import "./style.css";
 
-import image from "../../../assets/"
 
 export default function Project({
   name,

@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function TeckStack() {
   return (
-    <div id="tech-stack">
+    <section id="tech-stack">
       <h2 className="">Tecnologias utilizadas</h2>
       <ul className="techs">
         <li className="tech">
@@ -29,6 +29,6 @@ export default function TeckStack() {
           </p>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }
