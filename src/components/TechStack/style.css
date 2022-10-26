@@ -21,7 +21,6 @@
 
 #tech-stack .techs .tech-name {
     color: var(--light-blue);
-    margin: 1rem 0;
     display: flex;
     gap: 1rem;
     font-size: 2rem;
