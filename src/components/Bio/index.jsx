@@ -17,12 +17,12 @@ export default function Bio() {
           </h3>
           <ul className="social-links">
             <li>
-              <a href="#" target="_blank">
+              <a href="https://github.com/JohnPetros" target="_blank">
                 <FaGithub />
               </a>
             </li>
             <li>
-              <a href="#" target="_blank">
+              <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-carvalho-dos-santos-42a0ab222/" target="_blank">
                 <FaLinkedin />
               </a>
             </li>
