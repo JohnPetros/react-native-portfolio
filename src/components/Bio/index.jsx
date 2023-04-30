@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./style.css";
-import Resume from "../../assets/curriculo.pdf";
+import Resume from "../../assets/cv.pdf";
 
 export default function Bio() {
   return (
