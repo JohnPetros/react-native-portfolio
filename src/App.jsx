@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Bio from "./components/Bio";
 import TeckStack from "./components/TechStack";
 import Projects from "./components/Projects";
-import ScrollBackToTopButton from "./components/ScrollBackToTopButton"
+import ScrollBackToTopButton from "./components/ScrollBackToTopButton";
 
 function App() {
   return (

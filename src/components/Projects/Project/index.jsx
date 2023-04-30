@@ -2,9 +2,6 @@ import { useEffect, useState } from "react";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import "./style.css";
 
-import Image from "../../../../public/rpg-card-1.jpg";
-// import Image2 from "../../../assets/rpg-card-1.jpg";
-
 export default function Project({
   name,
   images,
@@ -44,7 +41,6 @@ export default function Project({
   }
   return (
     <div className="project">
-     
       <div className="slider">
         <h3 className="name">{name}</h3>
         <div
@@ -77,20 +73,23 @@ export default function Project({
             <FaAngleDoubleRight />
           </div>
           {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt="Screenshot do projeto"
+            <div
+              key={`image-${index}`}
               className={index === currentImage ? "image active" : "image"}
-              onMouseEnter={() => {
-                setAutoplaySlider(false);
-                clearTimeout(timeOut);
-              }}
-              onMouseLeave={() => {
-                setAutoplaySlider(true);
-                clearTimeout(timeOut);
-              }}
-            />
+            >
+              <img
+                src={image}
+                alt="Screenshot do projeto"
+                onMouseEnter={() => {
+                  setAutoplaySlider(false);
+                  clearTimeout(timeOut);
+                }}
+                onMouseLeave={() => {
+                  setAutoplaySlider(true);
+                  clearTimeout(timeOut);
+                }}
+              />
+            </div>
           ))}
         </div>
         <div className="slider-pagination">
@@ -115,12 +114,15 @@ export default function Project({
             <h4 className="sub-title">Técnicas e conceitos aprendidos</h4>
             <ul>
               {technicals.map((technical, index) => (
-                <li key={index}>{technical}</li>
+                <li key={index}>
+                  {technical}
+                  {index === technicals.length - 1 ? "." : ";"}
+                </li>
               ))}
             </ul>
           </div>
           <div className="list">
-            <h4 className="sub-title">Componentes utilizadas</h4>
+            <h4 className="sub-title">Componentes utilizados</h4>
             <ul>
               {components.map((component, index) => (
                 <li key={index}>{component}</li>

@@ -1,4 +1,5 @@
 #projects .title {
+    width: 100%;
     font-size: 2.2rem;
     margin-bottom: 2.2rem;
 }
@@ -15,4 +16,11 @@
 
 #projects .project {
     margin-bottom: 5rem;
+    margin: 0 auto 4rem;
+}
+
+@media (max-width: 1250px) {
+    #projects .title {
+        text-align: center;
+    }
 }

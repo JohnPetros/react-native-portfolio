@@ -4,7 +4,7 @@ import "./style.css";
 export default function TeckStack() {
   return (
     <section id="tech-stack">
-      <h2 className="">Tecnologias utilizadas</h2>
+      <h2 className="tech-stack-title">Tecnologias utilizadas</h2>
       <ul className="techs">
         <li className="tech">
           <h3 className="tech-name">

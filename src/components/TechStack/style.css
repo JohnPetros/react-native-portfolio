@@ -1,5 +1,5 @@
 #tech-stack {
-    margin-top: 22rem;
+    margin-top: 24rem;
     padding: 5rem 0;
     background-color: var(--black);
     border: solid 1px var(--light-blue);
@@ -10,7 +10,7 @@
 
 #tech-stack .techs {
     display: flex;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 #tech-stack .techs .tech {
@@ -24,9 +24,11 @@
     display: flex;
     gap: 1rem;
     font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 #tech-stack .techs .tech-description {
     width: 70%;
+    line-height: 2rem;
 }
 

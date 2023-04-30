@@ -10,7 +10,8 @@ export const projects = [
       "piratas-do-caribe-5.jpg",
       "piratas-do-caribe-6.jpg",
     ],
-    description: "Aplicativo multi-tela com o tema Piratas do Caribe que exibe informações a respeito dos 5 filmes da franquia (título, imagem e sinopse)",
+    description:
+      "Aplicativo multi-tela com o tema Piratas do Caribe que exibe informações a respeito dos 5 filmes da franquia (título, imagem e sinopse)",
     technicals: [
       "Navegação de Telas",
       "Componentização de telas",
@@ -43,7 +44,8 @@ export const projects = [
       "formulario-3.jpg",
       "formulario-4.jpg",
     ],
-    description: "Formulário com validação que recebe dados de um usuário (nome, ano de nascimento, endereço, CPF e RG. Após o formulário ser submitado, o usuário é redirecionado para a segunda tela do aplicativo, mostrando seus dados inseridos em formato de tabela, juntamento com sua idade, calculada a partir do ano de nascimento fornecido",
+    description:
+      "Formulário com validação que recebe dados de um usuário (nome, ano de nascimento, endereço, CPF e RG. Após o formulário ser submitado, o usuário é redirecionado para a segunda tela do aplicativo, mostrando seus dados inseridos em formato de tabela, juntamento com sua idade, calculada a partir do ano de nascimento fornecido",
     technicals: [
       "Construção de formulários em React",
       "Uso de states para alterar componentes dinamicamente",
@@ -52,7 +54,7 @@ export const projects = [
       "Fluxo de renderização",
       "Mensagens de alerta",
       "Renderização e estilização condicional",
-      "Experiência de usuário no que diz respeito a preencher formulários em dispositivos móveis"
+      "Experiência de usuário no que diz respeito a preencher formulários em dispositivos móveis",
     ],
     components: [
       "StyleSheet",
@@ -63,18 +65,16 @@ export const projects = [
       "TouchableOpacity",
       "TouchableWithoutFeedback",
       "Keyboard",
-      "Alert"
+      "Alert",
     ],
     link: "https://snack.expo.dev/@joaopcarvalho/formulario?platform=android",
   },
   {
     id: "3",
     name: "RPG Card",
-    images: [
-      "rpg-card-1.jpg",
-      "rpg-card-2.jpg",
-    ],
-    description: "Card de personagem estilo RPG, contendo informações como nome, classe, nível, atributos de força, ataque, resistência e velociade. O card é adaptado para ser visualizado com a tela tanto em posição de paisagem quanto de retrato, podendo o usuário mudar para uma das duas posições ao pressionar o botão que contém uma seta",
+    images: ["rpg-card-1.jpg", "rpg-card-2.jpg"],
+    description:
+      "Card de personagem estilo RPG, contendo informações como nome, classe, nível, atributos de força, ataque, resistência e velociade. O card é adaptado para ser visualizado com a tela tanto em posição de paisagem quanto de retrato, podendo o usuário mudar para uma das duas posições ao pressionar o botão que contém uma seta",
     technicals: [
       "Estilização condicional",
       "Manipulação da orientação da tela com Expo",
@@ -108,7 +108,8 @@ export const projects = [
       "familia-simpson-5.jpg",
       "familia-simpson-6.jpg",
     ],
-    description: "Aplicativo sobre os integrantes da família Simpson, que informações descritivas da cada personagem. Apenas possui 2 telas: uma que contém os cards referentes a cada Simpson, e outra que exibe os dados do personagem escolhido pelo usuário dinamicamente",
+    description:
+      "Aplicativo mobile sobre os integrantes da família Simpson, apresentando informações descritivas da cada personagem (nome, gênero, idade e ocupação). O app somente possui 2 telas: uma que contém os cards referentes a cada Simpson, e outra que exibe os dados do personagem escolhido pelo usuário, que são renderizados dinamicamente",
     technicals: [
       "Renderização em lista com FlatList",
       "Uso da função map do JavaScript para renderizar itens dinamicamente",
@@ -133,15 +134,13 @@ export const projects = [
   },
   {
     id: "5",
-    name: "Card de apresentação profissional",
-    images: [
-      "card-profissional-1.jpg",
-      "card-profissional-2.jpg",
-    ],
-    description: "Card de apresentação profissional de programador fictício. Inicialmente, o card exibe imagem, nome, e-mail e telefone de contato, porém ao clicar no botão de expandir, é acrescido as tecnologias (cada uma com uma respectiva cor) que o programador domina, além de botões de enviar mensagem e contratá-lo",
+    name: "Card de apresentação",
+    images: ["card-profissional-1.jpg", "card-profissional-2.jpg"],
+    description:
+      "Card de apresentação profissional de programador fictício. Inicialmente, o card exibe imagem, nome, e-mail e telefone de contato, porém ao clicar no botão de expandir, é acrescido as tecnologias (cada uma com uma respectiva cor) que o programador domina, além de botões de enviar mensagem e contratá-lo",
     technicals: [
       "Uso de funções para renderizações dinâmicas",
-      "Passagem de funções entre componntes",
+      "Passagem de funções entre componentes",
       "Uso de containers como componentes globais",
       "Imagens de Fundo em React",
       "Manipulação de opacidade de views",
@@ -155,6 +154,43 @@ export const projects = [
       "View",
       "Text",
       "TouchableOpacity",
+      "StatusBar",
+      "StyleSheet",
+    ],
+    link: "https://snack.expo.dev/@joaopcarvalho/profile-card?platform=android",
+  },
+  {
+    id: "6",
+    name: "Sistema Solar",
+    images: [
+      "solar-system-1.jpg",
+      "solar-system-2.jpg",
+      "solar-system-3.jpg",
+      "solar-system-4.jpg",
+      "solar-system-5.jpg",
+      "solar-system-6.jpg",
+      "solar-system-7.jpg",
+    ],
+    description:
+      "Card de apresentação profissional de programador fictício. Inicialmente, o card exibe imagem, nome, e-mail e telefone de contato, porém ao clicar no botão de expandir, é acrescido as tecnologias (cada uma com uma respectiva cor) que o programador domina, além de botões de enviar mensagem e contratá-lo.",
+    technicals: [
+      "Uso de funções para renderizações dinâmicas",
+      "Passagem de funções entre componentes",
+      "Uso de containers como componentes globais",
+      "Imagens de Fundo em React",
+      "Manipulação de opacidade de views",
+      "Manipulação de overflow de elementos",
+      "Desestruturação de objetos JavaScript",
+      "Uso de bibliotecas React para ícones",
+    ],
+    components: [
+      "Context",
+      "Linking",
+      "ImageBackground",
+      "View",
+      "Text",
+      "TouchableOpacity",
+      "FlatList",
       "StatusBar",
       "StyleSheet",
     ],

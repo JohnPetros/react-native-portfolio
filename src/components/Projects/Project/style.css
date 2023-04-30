@@ -1,28 +1,29 @@
 .project {
   background-color: var(--black);
-  width: 100%;
-  min-height: 60rem;
   padding-bottom: 1rem;
-
   border: 2px solid var(--light-blue);
   border-radius: 10px;
   overflow: hidden;
-
-  display: flex;
+  min-height: 60rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40rem 80rem;
+  margin-bottom: 2rem;
 }
 
 .project .slider {
-  width: 40%;
   position: relative;
   padding-top: 1rem;
   background-color: var(--dark-blue);
 }
 
 .project .slider .name {
+  display: block;
   text-align: center;
-  margin-bottom: .5rem;
+  padding: 0 4.4rem 0;
+  margin-bottom: 1rem;
   font-size: 2rem;
-  padding-bottom: 2rem;
+  z-index: 50;
 }
 
 .project .slider .slider-button {
@@ -52,12 +53,19 @@
 }
 
 .project .slider .image {
-  width: 22rem;
+  width: 50%;
+  height: 40%;
   position: absolute;
+  top: 12%;
   left: 25%;
   opacity: 0;
   transition: all 0.2s ease-in-out;
   pointer-events: none;
+}
+
+.project .slider .image img {
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .project .slider .image.active {
@@ -95,7 +103,6 @@
 }
 
 .projects .tabs .tab {
-  width: 50%;
   background-color: var(--dark-blue);
 
   padding: 1rem 2rem;
@@ -112,29 +119,30 @@
 }
 
 .project .information {
-  width: 70%;
+  padding: 2rem 4rem;
+  font-size: 1.6rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 2rem 5rem;
-  font-size: 1.6rem;
+  gap: 1rem;
 }
 
 .project .information .sub-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: var(--light-blue);
   text-align: center;
   margin-bottom: 2rem;
 }
 
 .project .information .description {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  line-height: 2.2rem;
 }
 
 .project .information .lists {
+  width: 100%;
   margin: 2.2rem;
   display: flex;
-  justify-content: space-between;
+  gap: 3.2rem;
 }
 
 .project .information .lists .sub-title {
@@ -146,15 +154,51 @@
   list-style: disc;
   text-align: start;
   margin-bottom: 1rem;
-  width: 90%;
+  width: 45rem;
 }
 
 .project .link {
   text-align: center;
   font-size: 1.4rem;
   color: var(--light-blue);
+  margin-top: auto;
 }
 
 .project .link:hover {
   color: var(--dark-blue);
+}
+
+@media (max-width: 1250px) {
+  .project {
+    display: block;
+    width: 54rem;
+  }
+
+  .project .slider {
+    width: 100%;
+    height: 48rem;
+  }
+
+  .project .slider .image {
+    width: 16rem;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
+  }
+
+  .project .slider .name {
+    font-size: 1.6rem;
+  }
+
+  .project .information {
+    font-size: 1.4rem;
+  }
+
+  .project .information .lists {
+    flex-direction: column;
+    align-items: center;
+  }
 }
