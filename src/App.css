@@ -3,7 +3,7 @@
   --black: #070d12;
   --gray: #b8bbc5;
   --dark-blue: #23395b;
-  --light-blue: #0094FB;
+  --light-blue: #0094fb;
   --background: #161925;
   font-size: 62.5%;
 }
@@ -18,17 +18,18 @@
   text-decoration: none;
 }
 
-html, body {
+html,
+body {
   width: 100vw;
   min-height: 100vh;
   background-color: var(--background);
   overflow-x: hidden;
   scroll-behavior: smooth;
-  display: flex;
-  justify-content: center;
 }
 
 main {
- max-width: 120rem;
- display: grid;
+  max-width: 120rem;
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
 }
