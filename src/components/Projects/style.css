@@ -1,10 +1,11 @@
 #projects .title {
     width: 100%;
     font-size: 2.2rem;
+    margin-top: 6rem;
     margin-bottom: 2.2rem;
 }
 
-.title::before {
+/* .title::before {
     content: "";
     margin: 5rem 0;
     display: block;
@@ -12,7 +13,7 @@
     height: .1rem;
     border-radius: 12px;
     background-color: var(--light-blue);
-}
+} */
 
 #projects .project {
     margin-bottom: 5rem;

@@ -6,46 +6,25 @@
    <a href="https://github.com/JohnPetros">
       <img alt="Made by JohnPetros" src="https://img.shields.io/badge/made%20by-JohnPetros-blueviolet">
    </a>
-   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/multi-calculator">
-   <a href="https://github.com/JohnPetros/multi-calculator/commits/main">
-      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/multi-calculator">
+   <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/JohnPetros/react-native-portfolio">
+   <a href="https://github.com/JohnPetros/react-native-portfolio/commits/main">
+      <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/JohnPetros/react-native-portfolio">
    </a>
   </a>
    </a>
-   <a href="https://github.com/JohnPetros/multi-calculator/blob/main/LICENSE.md">
-      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetros/multi-calculator">
+   <a href="https://github.com/JohnPetros/react-native-portfolio/blob/main/LICENSE.md">
+      <img alt="GitHub License" src="https://img.shields.io/github/license/JohnPetros/react-native-portfolio">
    </a>
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/multi-calculator?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/JohnPetros/react-native-portfolio?style=social">
 </div>
 
 ## 💻 Projeto
 
-Projeto de portifólio de aplicativos desenvolvidos em React Native durante a disciplina de programação mobile. Esse projeto foi realizado ccomo tarefa para disciplina citada, bem como ser apresentada durante a feira tecnológica do segundo semestre de 2022 na ETEC.
+Projeto de **portifólio de aplicativos desenvolvidos em React Native** durante a disciplina de programação mobile. Esse projeto foi realizado ccomo tarefa para disciplina citada, bem como ser apresentada durante a **feira tecnológica** do segundo semestre de 2022 na ETEC.
 
-### 📷 Demonstração
+### ⏹️ Demonstração
 
-<table align="center">
-  <tr>
-    <td width="250">
-    <span>Calculadora </span><br/>
-    <img alt="GIF demontrando o conversor de moeada" src=".github/multi-calculator.gif" />
-    </td>
-    <td width="250">
-      <span>Conversor de moeda </span><br/>
-        <img alt="Imagem demontrando o conversor de moeada" src=".github/currency-converter.jpeg" />
-    </td>
-  </tr>
-   <tr>
-    <td width="250">
-      <span>Conversor de comprimento </span><br/>
-        <img alt="Imagem demontrando o conversor de comprimento" src=".github/length-converter.jpeg" />
-    </td>
-    <td width="250">
-      <span>Tela Home </span><br/>
-        <img alt="Imagem demontrando a tela principal" src=".github/home.jpeg" />
-    </td>
-  </tr>
-</table>
+![Github Finder - Google Chrome 10_04_2023 11_10_49](https://user-images.githubusercontent.com/93893533/230918912-5aa2d855-d017-47bd-b1e2-119138cd2773.png)
 
 ---
 
@@ -53,24 +32,22 @@ Projeto de portifólio de aplicativos desenvolvidos em React Native durante a di
 
 - [x] Navegação por seção de página
 - [x] Listagem de projetos, contendo título, descrição, imagens, conceitos e componentes aplicados
-- [x] Carrossel de imagens 
+- [x] Carrossel de imagens
 - [x] Link para baixar currículo e para acessar qualquer projeto no Expo.io
 - [x] Botão para retornar para o topo da página (Scroll back to top button)
 - [x] Layout responsivo
 
 ---
 
-## 🛠️ Tecnologias 
+## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-✔️ **[React Native](https://expo.io/)**
-
-✔️ **[Expo](https://expo.io/)**
+✔️ **[ReactJs](https://react.dev/)**
 
 ---
 
-## 🚀 Como rodar este projeto 
+## 🚀 Como rodar este projeto
 
 ### 📝 Pré-requesitos
 
@@ -78,28 +55,38 @@ Antes de baixar o projeto você vai precisar ter instalado na sua máquina as se
 
 - [Git](https://git-scm.com)
 - [NodeJS](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/) ou [NPM](https://www.npmjs.com/)
+- [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)<br>
 
-> Você poder executar o App no seu celular ou em um emulador de celular da sua preferência usando Expo, ou ainda pela plataforma web do Expo acessando este link: [expo.dev](https://snack.expo.dev/@joaopcarvalho/multi-calculator?platform=android).
-
-#### 📟 Rodando o Mobile
+#### 📟 Rodando a aplicação
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/JohnPetros/multi-calculator.git
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd multi-calculator
+# Clone este repositório no terminal/cmd
+$ git clone https://github.com/JohnPetros/react-native-portfolio.git
+
+# Acesse a pasta do projeto
+$ cd react-native-portfolio
+
+# Abra a pasta no VSCode
+$ code .
 
 # Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npx expo start
+# Execute a aplicação localmente
+$ npm run dev
+
+# Muito provavelmente aplicação estará disponível pelo endereço http://127.0.0.1:5173/
 
 ```
+
+---
+
+## ⚙️ Deploy
+
+O deploy desse projeto foi realizado pela plataforma da **[Vercel](https://vercel.com/docs/concepts/deployments/overview)**. Isso implica que você pode acessar o projeto funcionando acessando esse **[link](https://react-native-portfolio.vercel.app/)**
 
 ---
 
@@ -107,11 +94,11 @@ $ npx expo start
 
 No link abaixo você encontra o layout do desafio original que peguei como inspiração para o projeto. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-- [Layout](<https://www.figma.com/file/ech15zxeL8HT9OpUQdJkcG/Calculator-App-(Community)?type=design&node-id=1-316&t=0JNYXNWgSjq78s2R-0>)
+- [Layout](https://www.figma.com/file/mEg4L1jMZQMSnQ38gm7IIp/portfolio-(Community)?type=design&node-id=0-1&t=qMgZvI4SdEEbKYT3-0)
 
 ---
 
-## 🗒️ Licença
+## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
