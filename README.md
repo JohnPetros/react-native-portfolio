@@ -24,7 +24,7 @@ Projeto de **portifólio de aplicativos desenvolvidos em React Native** durante 
 
 ### ⏹️ Demonstração
 
-![Github Finder - Google Chrome 10_04_2023 11_10_49](https://user-images.githubusercontent.com/93893533/230918912-5aa2d855-d017-47bd-b1e2-119138cd2773.png)
+![React Native Portfólio - Google Chrome 30_04_2023 17_20_15](https://user-images.githubusercontent.com/93893533/235374550-8b9077fe-681e-46d0-98ce-e61245a6a79e.png)
 
 ---
 
@@ -44,6 +44,8 @@ Projeto de **portifólio de aplicativos desenvolvidos em React Native** durante 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ✔️ **[ReactJs](https://react.dev/)**
+
+✔️ **[ReactIcons](https://react-icons.github.io/react-icons/)**
 
 ---
 
@@ -98,7 +100,7 @@ No link abaixo você encontra o layout do desafio original que peguei como inspi
 
 ---
 
-## 📝 Licença
+## 🗒️ Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
