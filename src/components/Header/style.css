@@ -28,6 +28,10 @@ header {
   cursor: pointer;
 }
 
+.nav-bar .list .item a {
+  transition: 0.2s color;
+}
+
 .nav-bar .list .item a:hover {
   color: var(--light-blue);
 }

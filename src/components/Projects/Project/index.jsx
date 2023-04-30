@@ -10,7 +10,7 @@ export default function Project({
   components,
   link,
 }) {
-  const [currentImage, setCurrentImage] = useState(1);
+  const [currentImage, setCurrentImage] = useState(0);
   const [autoplaySlider, setAutoplaySlider] = useState(true);
   const [isTabInformation, setIsTabInformation] = useState(true);
   let timeOut = null;
@@ -92,19 +92,21 @@ export default function Project({
             </div>
           ))}
         </div>
-        <div className="slider-pagination">
-          {images.map((_, index) => (
-            <div
-              key={index}
-              className={
-                index === currentImage
-                  ? "pagination-dot active"
-                  : "pagination-dot"
-              }
-              onClick={() => setCurrentImage(index)}
-            ></div>
-          ))}
-        </div>
+        {images.length > 1 && (
+          <div className="slider-pagination">
+            {images.map((_, index) => (
+              <div
+                key={index}
+                className={
+                  index === currentImage
+                    ? "pagination-dot active"
+                    : "pagination-dot"
+                }
+                onClick={() => setCurrentImage(index)}
+              ></div>
+            ))}
+          </div>
+        )}
       </div>
       <div className="information">
         <h4 className="sub-title">Sobre o projeto</h4>

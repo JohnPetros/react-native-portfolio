@@ -7,7 +7,7 @@ export default function Bio() {
     <div className="bio">
       <div className="profile">
         <img
-          src="hhtps://github"
+          src="https://github.com/JohnPetros.png"
           alt="Foto de perfil"
         />
         <div className="information">
@@ -15,7 +15,7 @@ export default function Bio() {
           <h3 className="role">Aspirante a Desenvolvedor</h3>
           <ul className="social-links">
             <li>
-              <a href="https://github.com/JohnPetros.png" target="_blank">
+              <a href="https://github.com/JohnPetros" target="_blank">
                 <FaGithub />
               </a>
             </li>
