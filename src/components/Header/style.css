@@ -13,6 +13,7 @@ header {
   align-items: center;
   padding: 2rem 1rem;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .nav-bar .list {
@@ -43,5 +44,45 @@ header {
 
   .nav-bar .list {
     gap: 2rem;
+  }
+}
+
+@media (max-width: 760px) {
+  header {
+    height: 25vh;
+  }
+
+  .nav-bar {
+    width: 50rem;
+  }
+
+  .nav-bar h1 {
+    margin-bottom: 2rem;
+  }
+
+  .nav-bar .list .item a {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 760px) {
+  header {
+    height: 25vh;
+  }
+
+  .nav-bar {
+    width: 50rem;
+  }
+
+  .nav-bar h1 {
+    margin-bottom: 2rem;
+  }
+
+  .nav-bar .list {
+    gap: 1rem;
+  }
+
+  .nav-bar .list .item a {
+    padding: 4px;
   }
 }

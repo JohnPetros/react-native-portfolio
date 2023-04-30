@@ -1,34 +1,64 @@
 #tech-stack {
-    margin-top: 8rem;
-    padding: 5rem 0;
-    background-color: var(--black);
-    border: solid 1px var(--light-blue);
-    border-radius: 12px;
-    text-align: center;
-    font-size: 1.6rem;
+  margin-top: 8rem;
+  padding: 5rem 0;
+  background-color: var(--black);
+  border: solid 1px var(--light-blue);
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-inline: auto;
 }
 
 #tech-stack .techs {
-    display: flex;
-    margin-top: 2rem;
+  display: flex;
+  margin-top: 2rem;
 }
 
 #tech-stack .techs .tech {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 #tech-stack .techs .tech-name {
-    color: var(--light-blue);
-    display: flex;
-    gap: 1rem;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+  color: var(--light-blue);
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 #tech-stack .techs .tech-description {
-    width: 70%;
-    line-height: 2rem;
+  width: 70%;
+  line-height: 2rem;
 }
 
+@media (max-width: 1250px) {
+  #tech-stack {
+    width: 68rem;
+  }
+}
+
+@media (max-width: 760px) {
+  #tech-stack {
+    margin-top: 4rem;
+    width: 40rem;
+    font-size: 1.4rem;
+  }
+
+  #tech-stack .techs {
+    flex-direction: column;
+  }
+
+  #tech-stack .techs .tech {
+    margin-top: 4rem;
+  }
+
+  #tech-stack .techs .tech-name {
+    gap: .5rem;
+  }
+
+  #tech-stack .techs .tech-description {
+    font-size: 1.4rem;
+  }
+}

@@ -11,6 +11,7 @@
   border: 1px solid var(--black);
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  z-index: 100;
 }
 
 .scroll-back-to-top-button.show {

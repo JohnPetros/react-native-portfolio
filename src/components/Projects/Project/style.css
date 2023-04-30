@@ -69,7 +69,6 @@
 }
 
 .project .slider .image.active {
-  border: 1px solid var(--light-blue);
   opacity: 1;
   transform: scale(1.05);
 }
@@ -119,7 +118,7 @@
 }
 
 .project .information {
-  padding: 2rem 4rem;
+  padding: 2rem 6rem;
   font-size: 1.6rem;
   display: flex;
   flex-direction: column;
@@ -130,7 +129,7 @@
   font-size: 1.8rem;
   color: var(--light-blue);
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .project .information .description {
@@ -140,8 +139,9 @@
 
 .project .information .lists {
   width: 100%;
-  margin: 2.2rem;
+  margin: 2.2rem 0;
   display: flex;
+  justify-content: space-between;
   gap: 3.2rem;
 }
 
@@ -154,7 +154,7 @@
   list-style: disc;
   text-align: start;
   margin-bottom: 1rem;
-  width: 45rem;
+  width: 80%;
 }
 
 .project .link {
@@ -181,12 +181,8 @@
 
   .project .slider .image {
     width: 16rem;
-    position: absolute;
     top: 12%;
     left: 35%;
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-    pointer-events: none;
   }
 
   .project .slider .name {
@@ -194,11 +190,42 @@
   }
 
   .project .information {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .project .information .lists .list li {
+    width: 100%;
   }
 
   .project .information .lists {
     flex-direction: column;
+    margin: 0 auto;
     align-items: center;
   }
+}
+
+@media (max-width: 760px) {
+  .project {
+    display: block;
+    width: 40rem;
+  }
+
+  .project .information {
+    font-size: 1.4rem;
+  }
+
+  .project .slider .image {
+    width: 16rem;
+    top: 12%;
+    left: 30%;
+  }
+
+  .project .information .sub-title {
+    font-size: 1.6rem;
+  }
+
+  .project .information .lists .list {
+    width: 95%;
+  }
+
 }

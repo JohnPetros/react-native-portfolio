@@ -14,7 +14,7 @@ export default function TeckStack() {
           <p className="tech-description">
             React Native é uma biblioteca Javascript criada pelo Facebook. É
             usada para desenvolver aplicativos mobile para os sistemas Android e
-            iOS de forma nativa
+            iOS de forma nativa.
           </p>
         </li>
         <li className="tech">

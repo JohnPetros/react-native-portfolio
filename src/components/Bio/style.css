@@ -91,7 +91,13 @@
   }
 
   .bio .about-me p {
-    width: 68rem;
-    line-height: 2.4rem;
+    width: 64rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .bio .about-me p {
+    width: 40rem;
+    font-size: 1.4rem;
   }
 }
